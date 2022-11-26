@@ -35,7 +35,7 @@
         player = new YT.Player('player', {
           height: '360',
           width: '640',
-          videoId: id,
+          videoId: document.write(id),
           events: {
             'onReady': onPlayerReady
             //'onStateChange': onPlayerStateChange
